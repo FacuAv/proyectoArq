@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concursos-AFArq</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Concursos</h1>
+
+        <nav class="navegacion">
+            <ul class="menu">
+                <li>
+                    <a href="../index.html">Pagina Principal</a>
+                 </li>
+                <li>
+                    <a href="nuestroequipo.html">Nuestro Equipo</a>
+                </li>
+                <li> 
+                   <a href="obras.html">Obras</a>
+                 </li>
+                <li>
+                    <a href="legajos.html">Legajo Tecnico</a> 
+                </li>
+            </ul>
+        </nav>
+
+        <div class="imagen__concurso">
+            <img src="../img/concurso.jpg" alt="bienal">
+
+        </div>
+
+    </header>
+
+    <main>
+        <br><br><br><br><br>
+
+        <form>
+            <fieldset>
+                <legend> Inscripcion a concurso
+
+                </legend>
+                <div>
+                    <label for="Nombre">Completa tu nombre</label>
+                    <input type="text"nombre
+                    placeholder="Ingresa tu nombre">
+                    
+                
+                
+                </div>
+                <br> <br>
+                <div>
+                    <label for="email">Ingresa tu email</label>
+                    <input type="email" required
+                    placeholder="Ingresa tu email">
+                
+                
+                </div>
+                <br> <br>
+                <div>
+                    <label for="Pais">Elige tu pais</label>
+                    <select name="Pais"> 
+                      <option value="Argentina">Argentina</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Colombia">Colombia</option>
+
+                    </select>
+                 
+                </div>
+                <br>
+                <div>
+                    <label for="Soy estudiante de">Soy estudiante de</label>
+                    <br><br>
+
+                    <input type="radio" name="Soy estudiante de" value="Arquitectura">Arquitectura
+                    <input type="radio" name="Soy estudiante de" value="Diseño industrial">Diseño industrial
+                </div>
+               <br><br> 
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+
+            </fieldset>
+
+
+        </form>
+    </main>
+</body>
+</html>

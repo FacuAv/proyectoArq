@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #edf7b5ff;
+}
+
+/*Titulo de pagina*/
+h1{
+    color: #020402ff;
+ padding: 40px 30px;
+ text-align: center;
+ font-size: 3em;
+ font-family: 'Luxurious Roman', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+/*modificacion seccion menu*/
+
+nav ul li{
+    background-color: #85877cff;
+    margin: 10px;
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu >li {
+
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display:block;
+
+    color: white;
+    text-decoration: none;
+}
+
+.subMenu {
+    position: absolute;
+    background-color: #85877cff;
+    display: none;
+}
+
+.subMenu li a {
+    display: block;
+    color: black;
+   position: absolute;
+    text-decoration: none;
+    background-color: #85877cff ;
+  
+
+}
+
+.menu li:hover .subMenu{
+    display: block;
+}
+
+/*SECCION INDEX e imagenes*/
+
+.titulo{
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+.parrafoDescriptivo{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descripObra{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+.contenedorFlex{
+  
+    display: flex;
+    background-color: #f8f1ff;
+    margin: 40px;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.hijoFlex{
+    padding: 10px;
+    margin: 10px;
+}
+
+/*tamaños de imagenesObras*/
+.obra1{
+    height: 200px;
+}
+
+.obra2{
+    height: 200px;
+}
+
+.obra3{
+    height: 200px;
+}
+
+/*modificacion imagenes de concursos en index*/
+
+.descripCon{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    
+}
+
+.con1{
+    height: 200px;
+   
+}
+
+.con2{
+    height: 200px
+}
+
+.con3{
+    height: 200px
+}
+
+
+/*footer y redes*/
+
+.contenedorSocial{
+    display: flex;
+    background-color: #85877C;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+.red1{
+    height: 20px;
+}
+.red2{
+    height: 20px;
+}
+
+.red3{
+    height: 20px;
+}
+
+.red4{
+    height: 20px;
+}
+
+.legal{
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*Mediaqueries desde iphoneSE hasta Xr*/
+
+@media only screen and (max-width: 600px)  {
+
+
+    .contenedorFlex{
+        flex-direction: column;
+    }
+    
+    .obra1{
+        height: 120px;
+    }
+    .obra2{
+        height: 120px;
+        width: 210px;
+    }
+
+    .obra3{
+        height: 120px;
+        width: 210px;
+    }
+
+    .con1{
+        width: 210px;
+    }
+    .con2{
+        width: 210px;
+    }
+    .con3{
+        width: 210px;
+    }
+
+    .descripCon{
+        text-align: center;
+    }
+    .descripObra{
+        text-align: center;
+    }
+  
+
+}
+
+
+
+/*SECCION Nuestro equipo*/
+
+.subtitulo1
+{
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*seccion Legajo*/
+
+.imagen__plano{
+    margin: 20px 100px;
+}
+
+/*seccion concurso*/
+
+.imagen__concurso{
+    margin: 20px 200px;
+}
+
+/*SECCION OBRAS*/
+.subtitulo{
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedorGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    background-color: #f8f1ff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+.foto1{
+    width: 400x;
+    height: 300px;
+}
+.foto2{
+    width: 200x;
+    height: 300px;
+}
+.foto3{
+    width: 200x;
+    height: 250px;
+}
+.foto4{
+    width: 200x;
+    height: 200px;
+}
+.foto5{
+    width: 500x;
+    height: 200px;
+}
+.foto6{
+    width: 200x;
+    height: 200px;
+}
+
+/*media queriaes para iphone SE y Xr*/
+
+@media only screen and (max-width: 600px) {
+
+    .contenedorGrid{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        background-color: #f8f1ff;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 15px;
+        justify-content: space-between;
+    }
+
+.foto2{
+    width: 300px;
+}
+
+.foto3{
+    width: 300px;
+}
+.foto4{
+    width: 300px;
+}
+.foto6{
+    width: 300px;
+}
+
+}
