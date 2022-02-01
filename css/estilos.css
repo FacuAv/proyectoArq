@@ -39,6 +39,12 @@ nav ul li{
     display: inline-block;
 }
 
+li:hover{
+transform: scale(1.1);
+background-color: black;
+
+}
+
 .menu > li > a{
     display:block;
 
