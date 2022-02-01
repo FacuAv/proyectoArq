@@ -8,15 +8,34 @@ body{
 }
 
 /*Titulo de pagina*/
-h1{
+.containerEncabezado{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+
+}
+
+
+
+
+.nombrePagina{
     color: #020402ff;
  padding: 40px 30px;
- text-align: center;
- font-size: 3em;
+text-align: left;
+ font-size: 2em;
  font-family: 'Luxurious Roman', cursive;
 font-family: 'Montserrat', sans-serif;
 }
 
+/*logo del estudio*/
+
+.logoEstudio{
+    height: 350px;
+    width: 450px;
+    margin: 0%;
+
+}
 
 /*modificacion seccion menu*/
 
